@@ -1,0 +1,96 @@
+html{
+	background-position:center;
+    background-size: 100% 100%;
+    background-color: #c1bdba;
+}
+fieldset{
+    box-shadow: 2px 2px 5px black ;
+}
+legend{
+    color: #ffff;
+    font-size:24px;
+    background-color: #1ab188;
+    box-shadow: 2px 2px 5px black ;
+    font-family: sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 10px;
+    border-radius: 80px;
+}
+.btn{
+    color: #ffff;
+    border: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 10px;
+}
+.btnActivo{
+    background-color: #1ab188;
+}
+.btnDesactivo{
+    background-color: #0e614a;
+}
+.contenedor{
+	width:80%;
+	background-color: #13232f;
+    padding: 35px 45px 35px 50px;
+    min-height: 350px;
+    max-height: 600px;
+	margin:auto;
+	margin-top:65px;
+    border-radius:9px;
+    overflow: auto;
+}
+p{
+    font-size:18px; 
+    color: #CFD5E6;
+    font-family: sans-serif;
+    display: inline;
+    min-width: 500px;
+    float: left;
+}
+label{
+    font-size:18px; 
+    color: #CFD5E6;
+    font-family: sans-serif;
+    display: inline;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.ip{
+    width:10%;
+    height:20px;
+    line-height:150%;
+    resize:none;
+}
+.input{
+    font-family:Arial;
+    font-size:18px;
+    line-height:22px;
+    background-color:#0F1C25;
+    color: #ffff;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border:2px solid #a0b3b0;
+}
+#principal{ 
+    background-color: #13232f; 
+    width: 45%;
+    display: inline;
+    float: left;
+    margin-right:50px; 
+ }
+#resultado{ 
+    width: 40%; 
+    float:left;
+    height: 150px;
+    display: inline;
+    height: 120px; 
+    padding: 15px;
+    word-wrap: break-word;
+    overflow: auto;
+} 
